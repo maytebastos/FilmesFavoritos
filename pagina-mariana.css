@@ -1,0 +1,153 @@
+/* Reset básico de margens */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9fb; /* Fundo suave para destacar o documento */
+    color: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+/* Container que imita a folha do documento */
+.container {
+    background-color: #ffffff;
+    max-width: 750px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* --- SEÇÃO DO TOPO --- */
+.header-section {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header-banner img {
+    width: 280px;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    object-fit: cover;
+}
+
+.header-details {
+    flex: 1;
+}
+
+.header-details h1 {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+}
+
+/* Caixa lilás do topo */
+.info-box {
+    background-color: #e8e5f7;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.info-box ul {
+    list-style: none;
+}
+
+.info-box li {
+    font-size: 14px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+    position: relative;
+    padding-left: 15px;
+}
+
+.info-box li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.info-box li:last-child {
+    margin-bottom: 0;
+}
+
+/* --- SEÇÃO DE DESCRIÇÃO --- */
+.content-section {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.description-block {
+    flex: 1;
+}
+
+.description-block h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #1a1a1a;
+}
+
+.description-block p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.poster-block img {
+    width: 200px;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* --- SEÇÃO DE OPINIÃO --- */
+.opinion-section {
+    background-color: #e8e5f7;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.opinion-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #1a1a1a;
+}
+
+.opinion-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Responsividade para telas menores (Celulares) */
+@media (max-width: 650px) {
+    .header-section, .content-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-banner img, .poster-block img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .info-box ul {
+        text-align: left;
+    }
+}
