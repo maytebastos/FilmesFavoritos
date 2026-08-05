@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forrest Gump</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4efe6;
+    display:flex;
+    justify-content:center;
+    padding:30px;
+}
+
+.container{
+    width:900px;
+    background:#fffdf9;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,0.15);
+}
+
+/* TOPO */
+.topo{
+    background:linear-gradient(to bottom, #d9ecff, #eef7ff);
+    padding:30px 40px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:relative;
+}
+
+.topo::after{
+    content:"";
+    position:absolute;
+    bottom:-35px;
+    left:0;
+    width:100%;
+    height:70px;
+    background:#fffdf9;
+    border-radius:50% 50% 0 0;
+}
+
+.poster-principal{
+    width:260px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.info-filme{
+    background:#fffaf2;
+    padding:20px;
+    border-radius:12px;
+    width:300px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.info-filme h1{
+    text-align:center;
+    margin-bottom:15px;
+    color:#4a3b2f;
+}
+
+.info-filme ul{
+    padding-left:20px;
+}
+
+.info-filme li{
+    margin-bottom:10px;
+    color:#5d5147;
+}
+
+/* CONTEÚDO */
+.conteudo{
+    padding:60px 40px 40px;
+}
+
+.descricao{
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+    align-items:flex-start;
+}
+
+.texto{
+    flex:1;
+}
+
+.texto h2{
+    color:#4a3b2f;
+    margin-bottom:15px;
+}
+
+.texto p{
+    color:#5d5147;
+    line-height:1.8;
+    text-align:justify;
+}
+
+.poster-secundario{
+    width:180px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* MOTIVO */
+.motivo{
+    margin-top:50px;
+    background:#f6ede0;
+    border-radius:15px;
+    padding:30px;
+    text-align:center;
+}
+
+.motivo h2{
+    color:#4a3b2f;
+    margin-bottom:15px;
+}
+
+.motivo p{
+    color:#5d5147;
+    line-height:1.8;
+    max-width:700px;
+    margin:auto;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- TOPO -->
+    <div class="topo">
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg"
+        alt="Poster Forrest Gump"
+        class="poster-principal">
+
+        <div class="info-filme">
+            <h1>Forrest Gump</h1>
+
+            <ul>
+                <li><strong>Ano de lançamento:</strong> 1994</li>
+                <li><strong>Diretor:</strong> Robert Zemeckis</li>
+                <li><strong>Onde assistir:</strong> Paramount+</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- CONTEÚDO -->
+    <div class="conteudo">
+
+        <div class="descricao">
+
+            <div class="texto">
+                <h2>Descrição do filme:</h2>
+
+                <p>
+                    Forrest Gump é um clássico do cinema que conta a história de
+                    um homem simples, gentil e determinado. Mesmo enfrentando
+                    dificuldades desde a infância, Forrest participa de diversos
+                    momentos importantes da história dos Estados Unidos, tornando-se
+                    jogador de futebol americano, soldado na Guerra do Vietnã,
+                    campeão de tênis de mesa e empresário de sucesso. Ao longo de
+                    sua jornada, ele demonstra valores como amizade, honestidade,
+                    perseverança e amor verdadeiro.
+                </p>
+            </div>
+
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg"
+            alt="Poster Forrest Gump"
+            class="poster-secundario">
+
+        </div>
+
+        <!-- PORQUE GOSTO -->
+        <div class="motivo">
+
+            <h2>Porque eu gosto desse filme</h2>
+
+            <p>
+                Eu gosto de Forrest Gump porque ele ensina que a determinação e
+                a bondade podem levar uma pessoa muito longe. O personagem principal
+                enfrenta diversos desafios sem perder sua humildade e sempre segue
+                em frente. Além disso, o filme mistura emoção, humor e acontecimentos
+                históricos de forma interessante, transmitindo mensagens inspiradoras
+                sobre amizade, amor e superação.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
