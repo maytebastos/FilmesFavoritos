@@ -11,14 +11,14 @@ Páginas da equipe:
 
 Mariana
 Usuário GitHub: marixavierr
-Papel: Revisor/Versionador
+Papel: Revisor/ Versionador
 Página: paginas/pagina-mariana.html
 Recebe aprovação de: Pedro
 Aprova de: Pedro
 
 Maytê
 Usuário GitHub: maytebastos
-Papel: Arquiteto.
+Papel: Arquiteto
 Página: paginas/pagina-mayte.html
 Recebe aprovação de: Davi
 Aprova de: Davi
