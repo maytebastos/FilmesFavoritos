@@ -3,7 +3,7 @@ Tema do nosso site: Filmes favoritos.
 Meu nome: Davi Souza Carracedo Castillo.
 Meu usuário GitHub: alunoDaviCarracedo
 Meu papel: Documentador.
-Minha página: paginas/pagina-mayte.html 
+Minha página: paginas/pagina_davi.html 
 Eu PEÇO aprovação para: Maytê.
 Eu APROVO o PR de: Maytê.
 -----------------------------------------------------------------------------------------------------------------
