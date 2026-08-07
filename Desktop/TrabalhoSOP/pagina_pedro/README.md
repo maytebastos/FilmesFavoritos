@@ -23,7 +23,7 @@ Página: paginas/pagina-mayte.html
 Recebe aprovação de: Davi
 Aprova de: Davi
 
-Pedro
+Pedro1
 Usuário GitHub: pedromlionco11-dotcom
 Papel: Revisor chefe/Integrador
 Página: paginas/pagina-pedro.html
