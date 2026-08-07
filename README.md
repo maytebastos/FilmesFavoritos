@@ -4,8 +4,8 @@ Meu nome: Davi Souza Carracedo Castillo.
 Meu usuário GitHub: alunoDaviCarracedo
 Meu papel: Documentador.
 Minha página: paginas/pagina-mayte.html 
-Eu PEÇO aprovação para: ____________.
-Eu APROVO o PR de: ____________.
+Eu PEÇO aprovação para: Maytê.
+Eu APROVO o PR de: Maytê.
 -----------------------------------------------------------------------------------------------------------------
 Páginas da equipe:
 
